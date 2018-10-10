@@ -1,0 +1,46 @@
+{
+	// Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Print to console": {
+		 	"prefix": "html5",
+		 	"body": [
+				"<!DOCTYPE html>"
+				"<html lang=\"es\">"
+				"<head>"
+				""
+				"	<meta charset=\"UTF-8\">"
+				"	<base href=\"index.html\">"
+				""
+				"	<title>TITULO DE LA PAGINA</title>"
+				"	<link href=\"images/favicon.ico\" rel=\"shortcut icon\" type=\"image/vnd.microsoft.icon\" />"
+				"	<meta name=\"author\" content=\"Cristian Martin Sguazzin\">"
+				"	<meta name=\"description\" content=\"Web personal\">"
+				"	<meta name=\"keywords\" content=\"Web personal, Cristian Sguazzin, SCM\">"
+				""
+				"	<link rel=\"stylesheet\" type=\"text/css\" href=\"reset.css\">"
+				"	<link rel=\"stylesheet\" type=\"text/css\" href=\"HyperCss.css\">"
+				""
+				"</head>"
+				"<body>"
+				""
+				"	<?php 	echo\"<h1>CODIGO PHP AQUI</h1>\"	?>"
+				""
+				""
+				"	<script src=\"jquery-3.2.1.min.js\"></script>"
+				"</body>"
+				"</html>"
+		 	],
+		 	"description": "Snippet html5"
+		 }
+}
